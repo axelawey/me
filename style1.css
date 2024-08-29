@@ -258,13 +258,19 @@ span {
 
 @media screen and (max-width: 768px) {
     .navbar {
+        width: 100%;
         text-align: center;
-        padding: 10px 10px;
+        padding: 10px 0;
     }
 
     .navbar a {
-        display: block ;
-        margin: 10px 0;
+        display: inline-block ;
+        margin: 0 10px;
+    }
+
+    .home .content1{
+        height: auto;
+        margin: 20px;
     }
 
     .logo {
@@ -283,9 +289,7 @@ span {
     }
 
     .resume-button {
-        position: relative;
-        bottom: auto;
-        left: auto;
+        position: static;
         transform: none;
         margin-top: 20px;
     }
