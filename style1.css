@@ -313,10 +313,6 @@ span {
         z-index: 0;
     }
 
-    .logo, .navbar {
-        z-index: 1001;
-    }
-
     .auto-type{
         position: relative;
         z-index: 2;
