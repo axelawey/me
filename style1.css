@@ -268,10 +268,12 @@ span {
         width: 100%;
         text-align: center;
         padding: 10px 0;
+        z-index: 1001;
+        position: relative;
     }
 
     .navbar a {
-        padding-left: 20px;
+        padding-left: 5px;
         display: inline-block ;
         margin: 0 5px;
     }
@@ -279,8 +281,8 @@ span {
     .home .content1{
         height: auto;
         margin: 20px;
-        z-index: 1;
         position: relative;
+        z-index: 1;
     }
 
     .logo {
@@ -317,6 +319,7 @@ span {
     }
 
     .auto-type{
+        position: relative;
         z-index: 2;
     }
 
