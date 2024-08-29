@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[axel.]</title>
+    <link rel="icon" href="me/assests/person_13924070.png" type="image">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home" class="logo">[axel awey.]</a>
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#projects">projects</a>
+        <a href="#contact">contact</a>
+    </div>
+
+    <section id="home" class="section home">
+        <div class="content1">
+            <h1>hi, i'm <span class="auto-type"></span></h1>
+            
+            <div class="resume-button">
+                <a href="./assests/myresume .pdf" target="_blank" class="btn">my resume.</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="content">
+            <h2>about <span class="highlight">me.</span></h2>
+            <p>I am Axel Awey, a Junior @ George Mason University based in Virginia. I am pursuing a Bachelor's in Computer Science. I aspire to be Cloud/Security Engineer with a passion of Software Engineering/
+                Development, creating more security measures for applications and also to advocate for STEM in the less-technological areas of the world.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects">
+        <div class="content">
+            <h2>projects.</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h3>typetrack.</h3>
+                    <p>'typetrack.' is a python keylogger application that logs keystrokes with the use of the "pynput" library along with a simple GUI created using "tkinter" and "ttkbootstrap" to display real-time results.</p>
+                    <a href="https://github.com/axelawey/typetrack." target="_blank" class="project-link">
+                        <img src="./assests/icons8-github.svg" alt="git pro" class="platform-logo">
+                    </a>
+                </div>
+                <div class="project">
+                    <h3>RandPass Gen</h3>
+                    <p>This is a simple HTML-based Python Random Password Generator. It generates strong passwords with customizable length and character sets.</p>
+                    <a href="https://rand-pass-app.vercel.app/" target="_blank" class="project-link">
+                        <img src="./assests/language_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="git pro" class="platform-logo">
+                    </a>
+                </div>
+                <div class="project">
+                    <h3>cryptvault.</h3>
+                    <p>A web application that allows you to encrypt and decrypt messagaes using various cryptographic algorithms.</p>
+                    <a href="https://cryptvault-web-app.vercel.app/" target="_blank" class="project-link">
+                        <img src="./assests/language_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="git pro" class="platform-logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="content">
+            <h2>contact <span class="highlight">me.</span></h2>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/axelawey/" target="_blank">
+                    <img src="./assests/icons8-linkedin.svg" alt="linkedin" class="socials-i">
+                </a>
+                <a href="https://github.com/axelawey" target="_blank">
+                    <img src="./assests/icons8-github.svg" alt="github" class="socials-i">
+                </a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="https://formspree.io/f/mpwayzbj" method="POST">
+                <label for="name"> your name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">your email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">your message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <input type="submit" value="send message">
+            </form>
+        </div>
+    </section>
+
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["axel.", "a builder.", "somewhat a creator."],
+            typeSpeed: 170,
+            backSpeed: 300,
+            loop: true
+        });
+    </script>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
