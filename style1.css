@@ -70,6 +70,7 @@ body {
     color: #000;
     text-decoration: none;
     text-align: left;
+    z-index: 1001;
 }
 
 .logo:hover {
@@ -84,6 +85,7 @@ body {
     background-color: rgba(0, 0, 0, 0.8); 
     padding: 20px 20px;
     text-align: right;
+    z-index: 1000;
 }
 
 .navbar a {
@@ -113,6 +115,11 @@ body {
 
 .home {
     position: relative;
+}
+
+.home .content1{
+    position: relative;
+    z-index: 1;
 }
 
 .projects .content, .contact .content {
@@ -323,6 +330,10 @@ span {
 
     .socials-i {
         margin: 5px;
+    }
+
+    .logo, .navbar {
+        z-index: 1001;
     }
 }
 
