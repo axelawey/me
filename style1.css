@@ -279,6 +279,8 @@ span {
     .home .content1{
         height: auto;
         margin: 20px;
+        z-index: 1;
+        position: relative;
     }
 
     .logo {
@@ -307,6 +309,7 @@ span {
         left: 50%;
         transform: translateX(-50%);
         margin-top: 20px;
+        z-index: 0;
     }
 
     .logo, .navbar {
