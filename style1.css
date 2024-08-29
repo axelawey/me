@@ -255,3 +255,62 @@ span {
 .socials-log-i:hover {
     transform: scale(1.2);
 }
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        text-align: center;
+        padding: 10px 10px;
+    }
+
+    .navbar a {
+        display: block ;
+        margin: 10px 0;
+    }
+
+    .logo {
+        position: static;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .about .content {
+        padding-right: 0;
+        font-size: 100%;
+    }
+
+    .home .content1 h1 {
+        font-size: 32px;
+    }
+
+    .resume-button {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        transform: none;
+        margin-top: 20px;
+    }
+
+    .project-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project {
+        width: 90%;
+    }
+
+    .contact-form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .socials {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .socials-i {
+        margin: 5px;
+    }
+}
+
