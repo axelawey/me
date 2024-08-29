@@ -264,6 +264,7 @@ span {
     }
 
     .navbar a {
+        padding-left: 20px;
         display: inline-block ;
         margin: 0 10px;
     }
