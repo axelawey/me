@@ -271,7 +271,7 @@ span {
     }
 
     .navbar a {
-        padding-left: 5px;
+        padding-left: 20px;
         display: inline-block ;
         margin: 0 5px;
     }
@@ -304,7 +304,7 @@ span {
     }
 
     .resume-button {
-        position: absolute;
+        position: static;
         bottom: 110px;
         left: 50%;
         transform: translateX(-50%);
