@@ -289,8 +289,10 @@ span {
     }
 
     .resume-button {
-        position: static;
-        transform: none;
+        position: absolute;
+        bottom: 110px;
+        left: 50%;
+        transform: translateX(-50%);
         margin-top: 20px;
     }
 
