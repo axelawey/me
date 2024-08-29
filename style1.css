@@ -316,6 +316,10 @@ span {
         z-index: 1001;
     }
 
+    .auto-type{
+        z-index: 2;
+    }
+
     .project-list {
         flex-direction: column;
         align-items: center;
