@@ -279,6 +279,9 @@ span {
         margin-bottom: 20px;
         text-align: center;
         font-weight: bold;
+    }
+
+    .logo a {
         color: #00ff99;
     }
 
