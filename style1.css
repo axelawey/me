@@ -309,6 +309,10 @@ span {
         margin-top: 20px;
     }
 
+    .logo, .navbar {
+        z-index: 1001;
+    }
+
     .project-list {
         flex-direction: column;
         align-items: center;
@@ -332,8 +336,5 @@ span {
         margin: 5px;
     }
 
-    .logo, .navbar {
-        z-index: 1001;
-    }
 }
 
