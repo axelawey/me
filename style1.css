@@ -262,30 +262,6 @@ span {
     transform: scale(1.2);
 }
 
-.about-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 50px 0;
-}
-
-.about-text {
-  flex: 1;
-  padding-right: 20px;
-}
-
-.about-images {
-  display: flex;
-  flex-direction: column;
-}
-
-.about-img {
-  width: 100px; /* Set the size of each image */
-  height: auto;
-  margin-bottom: 10px;
-  border-radius: 8px; /* Optional: To add rounded corners to images */
-}
-
 @media (max-width: 768px) {
   .about-container {
     flex-direction: column;
