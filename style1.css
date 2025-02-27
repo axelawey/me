@@ -262,6 +262,33 @@ span {
     transform: scale(1.2);
 }
 
+.skills-roll {
+    overflow: hidden;
+    width: 100%;
+    max-width: 1000px;
+    position: relative;
+    margin-left: 0;
+    margin-top: -10px;
+    white-space: nowrap;
+}
+
+.roll-track {
+    display: flex;
+    gap: 30px;
+    animation: scroll 10s linear infinite;
+    width: max-content;
+}
+
+.roll-track img {
+    width: 80px;
+    height: auto;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0);}
+    100% { transform: translateX(-50%);}
+}
+
 @media (max-width: 768px) {
   .about-container {
     flex-direction: column;
@@ -346,6 +373,15 @@ span {
 
     .socials-i {
         margin: 5px;
+    }
+
+    .skills-roll {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .roll-track img {
+        width: 70px;
     }
 
 }
