@@ -7,3 +7,12 @@ document.querySelectorAll('.navbar a').forEach(anchor => {
         });
     });
 });
+
+const track = document.querySelector('.roll-track');
+
+track.addEventListener('mouseenter', () => {
+    track.computedStyleMap.animationPlayState = 'paused';
+});
+track.addEventListener('mouseleave', () => {
+    track.computedStyleMap.animationPlayState = 'running';
+});
